@@ -23,5 +23,9 @@ sharedPref.removeKey(key: "keyanda")
 ```swift
 sharedPref.clear()
 ```
+6. Untuk memanggil semua data yang telah disimpan :
+```swift
+sharedPref.getAll()
+```
 Sekian tahapan untuk membuat penyimpanan sementara dengan SharedPreferences. 
 untuk lebih jelasnya anda bisa lihat di blog saya https://blog.kamil.co.id
