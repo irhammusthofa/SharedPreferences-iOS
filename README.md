@@ -17,7 +17,7 @@ let data = sharedPref.getValue(key: "keyanda")
 ```
 5. Untuk menghapus penyimpanan berdasarkan key :
 ```swift
-sharedPref.removeValue(key: "keyanda")
+sharedPref.removeKey(key: "keyanda")
 ```
 5. Untuk menghapus semua data yang telah disimpan  :
 ```swift
