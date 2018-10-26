@@ -11,5 +11,17 @@ var sharedPref = SharedPreferences()
 ```swift
 sharedPref.setValue(key: "keyanda", val: "nilai yang akan disimpan")
 ```
+4. Untuk memanggil data yang telah disimpan :
+```swift
+let data = sharedPref.getValue(key: "keyanda")
+```
+5. Untuk menghapus penyimpanan berdasarkan key :
+```swift
+sharedPref.removeValue(key: "keyanda")
+```
+5. Untuk menghapus semua data yang telah disimpan  :
+```swift
+sharedPref.clear()
+```
 Sekian tahapan untuk membuat penyimpanan sementara dengan SharedPreferences. 
 untuk lebih jelasnya anda bisa lihat di blog saya https://blog.kamil.co.id
